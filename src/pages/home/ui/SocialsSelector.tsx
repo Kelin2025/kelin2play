@@ -5,7 +5,7 @@ import { $socials, $activeIdx, hovered } from '../model/model'
 
 export const SocialsSelector = () => {
   return (
-    <div className="flex">
+    <div className="grid grid-cols-3 md:grid-cols-6">
       {useList($socials, (social, idx) => {
         const Icon = social.icon
         const isActive = useStoreMap({
