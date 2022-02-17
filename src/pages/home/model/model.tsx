@@ -24,16 +24,14 @@ const ARROWS = {
 
 const hotkeyNavigation = {
   left: guard({
-    clock: hotkey({
-      code: ARROWS.LEFT,
-    }),
+    clock: hotkey({ code: ARROWS.LEFT }),
     source: [$activeIdx],
     filter: ([activeIdx]) => activeIdx > 0,
   }),
   right: guard({
     clock: hotkey({ code: ARROWS.RIGHT }),
     source: [$socials, $activeIdx],
-    filter: ([socials, activeIdx]) => activeIdx + 1 >= socials.length,
+    filter: ([socials, activeIdx]) => activeIdx + 1 < socials.length,
   }),
 }
 
