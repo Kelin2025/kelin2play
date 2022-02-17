@@ -1,0 +1,53 @@
+{
+  "name": "uni-chatbots",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "vite",
+    "build": "vite build",
+    "serve": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "atomic-router": "^0.4.3",
+    "atomic-router-react": "^0.4.3",
+    "clsx": "^1.1.1",
+    "effector": "^22.1.2",
+    "effector-factorio": "^0.1.6",
+    "effector-react": "^22.0.6",
+    "history": "^5.2.0",
+    "patronum": "^1.6.0-next.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.27",
+    "@types/react-dom": "^17.0.9",
+    "@vitejs/plugin-react": "^1.2.0",
+    "autoprefixer": "^10.4.0",
+    "express": "^4.17.1",
+    "postcss": "^8.4.5",
+    "postcss-preset-env": "^6.7.0",
+    "tailwindcss": "^3.0.7",
+    "typescript": "^4.4.3",
+    "vite": "^2.8.3",
+    "vite-plugin-react": "^4.0.1",
+    "vite-plugin-svgr": "^1.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
