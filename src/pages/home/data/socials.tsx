@@ -55,7 +55,7 @@ export const socials = [
   {
     icon: EmailIcon,
     color: '#fcd34d',
-    link: 'mailto:kelin2025@yandex.ru',
+    link: 'mailto:kelin.sponsorship@gmail.com',
     title: 'Для деловых предложений - Тот Самый Келин',
     description: (
       <>
@@ -66,7 +66,7 @@ export const socials = [
           rel="nofollow"
           className="text-pink-500 font-semibold underline"
         >
-          <span className="select-all">kelin2025@yandex.ru</span>
+          <span className="select-all">kelin.sponsorship@gmail.com</span>
         </a>
       </>
     ),
